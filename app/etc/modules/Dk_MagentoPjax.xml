@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Dk_MagentoPjax>
+			<active>true</active>
+			<codePool>community</codePool>
+			<depends></depends>
+		</Dk_MagentoPjax>
+	</modules>
+</config>

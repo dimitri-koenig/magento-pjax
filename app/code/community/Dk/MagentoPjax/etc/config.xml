@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+
+	<modules>
+		<Dk_MagentoPjax>
+			<version>0.0.1</version>
+		</Dk_MagentoPjax>
+	</modules>
+
+	<frontend>
+		<layout>
+			<updates>
+				<dk_magentopjax>
+					<file>dk_magentopjax.xml</file>
+				</dk_magentopjax>
+			</updates>
+		</layout>
+
+		<events>
+			<controller_front_send_response_before>
+				<observers>
+					<dk_magentopjax>
+						<type>singleton</type>
+						<class>Dk_MagentoPjax_Response_Observer</class>
+						<method>handle</method>
+					</dk_magentopjax>
+				</observers>
+			</controller_front_send_response_before>
+		</events>
+	</frontend>
+
+	<default>
+		<dev>
+			<dk_magentopjax>
+				<move_body_tag_content_into_separate_div>0</move_body_tag_content_into_separate_div>
+			</dk_magentopjax>
+		</dev>
+	</default>
+
+</config>
