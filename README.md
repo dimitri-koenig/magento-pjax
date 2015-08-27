@@ -17,3 +17,23 @@ To eliminate any side effects of this performance you should go through every mo
 ## Options
 
 Set `dk_magentopjax/move_body_tag_content_into_separate_div` config option to 1 so that every content of the body tag will be moved to a separate div right after the body tag.
+
+
+## Contributing
+
+
+1. [Fork it!](https://github.com/dimitri-koenig/magento-pjax/fork)
+2. Create your feature branch (`git checkout -b feature/my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin feature/my-new-feature`)
+5. Create new Pull Request
+
+
+## Author
+
+Dimitri König (@dimitrikoenig)
+
+
+## License
+
+This module is open-sourced software licensed under the [Apache 2.0 license](http://opensource.org/licenses/Apache-2.0)
