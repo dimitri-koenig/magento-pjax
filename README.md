@@ -16,4 +16,4 @@ To eliminate any side effects of this performance you should go through every mo
 
 ## Options
 
-Set `dev/dk_magentopjax/move_body_tag_content_into_separate_div` config option to 1 so that every content of the body tag will be moved to a separate div right after the body tag.
+Set `dk_magentopjax/move_body_tag_content_into_separate_div` config option to 1 so that every content of the body tag will be moved to a separate div right after the body tag.

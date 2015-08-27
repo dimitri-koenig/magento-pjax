@@ -3,7 +3,7 @@
 
 	<modules>
 		<Dk_MagentoPjax>
-			<version>0.0.1</version>
+			<version>0.0.2</version>
 		</Dk_MagentoPjax>
 	</modules>
 
@@ -30,11 +30,9 @@
 	</frontend>
 
 	<default>
-		<dev>
-			<dk_magentopjax>
-				<move_body_tag_content_into_separate_div>0</move_body_tag_content_into_separate_div>
-			</dk_magentopjax>
-		</dev>
+		<dk_magentopjax>
+			<move_body_tag_content_into_separate_div>0</move_body_tag_content_into_separate_div>
+		</dk_magentopjax>
 	</default>
 
 </config>
