@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Pjax Response observer which handles pjax requests
  * 
@@ -8,7 +9,6 @@
  * @author Dimitri König <dimitri@dimitrikoenig.net>
  * @since  2015-05-22
  */
-
 class Dk_MagentoPjax_Response_Observer
 {
 	/**
