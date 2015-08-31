@@ -2,8 +2,11 @@
 <layout version="0.1.0">
     <default>
         <reference name="head">
+        	<action method="addItem"><type>skin_js</type><name>js/magento-pjax/nprogress.js</name></action>
             <action method="addItem"><type>skin_js</type><name>js/magento-pjax/jquery.pjax.js</name></action>
             <action method="addItem"><type>skin_js</type><name>js/magento-pjax/run.js</name></action>
+
+            <action method="addItem"><type>skin_css</type><name>css/nprogress.css</name><params/><if/></action>
         </reference>
     </default>
 </layout>
