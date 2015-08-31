@@ -1,3 +1,5 @@
-app/code/community/Dk/MagentoPjax     app/code/community/Dk/MagentoPjax
-app/etc/modules/*    app/etc/modules/
-js/magento-pjax    js/magento-pjax
+app/etc/modules/*											app/etc/modules/
+app/code/community/Dk/MagentoPjax							app/code/community/Dk/MagentoPjax
+app/design/frontend/base/default/layout/dk_magentopjax.xml	app/design/frontend/base/default/layout/dk_magentopjax.xml
+skin/frontend/base/default/js/magento-pjax/jquery.pjax.js	skin/frontend/base/default/js/magento-pjax/jquery.pjax.js
+skin/frontend/base/default/js/magento-pjax/run.js			skin/frontend/base/default/js/magento-pjax/run.js

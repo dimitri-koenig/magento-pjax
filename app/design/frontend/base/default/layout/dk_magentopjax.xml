@@ -2,8 +2,8 @@
 <layout version="0.1.0">
     <default>
         <reference name="head">
-            <action method="addJs"><script>magento-pjax/jquery.pjax.js</script></action>
-            <action method="addJs"><script>magento-pjax/run.js</script></action>
+            <action method="addItem"><type>skin_js</type><name>js/magento-pjax/jquery.pjax.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/magento-pjax/run.js</name></action>
         </reference>
     </default>
 </layout>
