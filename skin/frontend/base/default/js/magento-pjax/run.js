@@ -4,5 +4,5 @@
         timeout: 2500
     };
 
-    $(document).pjax('a', 'body', pjaxOptions);
+    $(document).pjax('[data-pjax] a, a[data-pjax]', 'body', pjaxOptions);
 })(jQuery);
