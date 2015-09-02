@@ -22,17 +22,20 @@ class Dk_MagentoPjax_Response_Observer
     {
         $response = Mage::app()->getResponse();
         $bodyContentArray = $response->getBody(true);
-        $content = $bodyContentArray['default'];
 
-        if ($this->shouldMoveBodyTagContent()) {
-            $this->moveBodyTagContent($content);
+        if (isset($bodyContentArray['default']) && !empty($bodyContentArray['default'])) {
+            $content = $bodyContentArray['default'];
+
+            if ($this->shouldMoveBodyTagContent()) {
+                $this->moveBodyTagContent($content);
+            }
+
+            if ($this->isPjaxRequest()) {
+                $this->leaveOnlyTitleAndContentInBody($content);
+            }
+
+            $response->setBody($content);
         }
-
-        if ($this->isPjaxRequest()) {
-            $this->leaveOnlyTitleAndContentInBody($content);
-        }
-
-        $response->setBody($content);
     }
 
     /**
