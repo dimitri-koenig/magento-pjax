@@ -1,4 +1,4 @@
-# magento-pjax | Magento Performance Booster
+# magento-pjax | Magento Performance Booster [UNMAINTAINED CODE]
 
 This module makes use of [jquery-pjax](https://github.com/defunkt/jquery-pjax). It works by sending an ajax request to the server when a user clicks on an internal link. The server sends the body content only and replaces it with the current body content.
 
